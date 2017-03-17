@@ -11,7 +11,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="~/vendors/bootstrap/dist/css/bootstrap.min.css">
+
     <script type="text/javascript" src="Scripts/jquery-3.1.1.min.js"></script>
     
 </head>
@@ -32,8 +34,8 @@
 
             <div class="form-group">
                 <div class="col-md-4 col-md-offset-1">
-                    <button type="reset" class="btn btn-primary" onclick="cancelar()">Cancelar</button>
-                    <button type="button" class="btn btn-success" onclick="Salvar()" id="btsalvar">Salvar</button>
+                    <button type="reset" class="btn btn-primary" onclick="cancelar()"><i class="fa fa-undo"></i> Cancelar</button>
+                    <button type="button" class="btn btn-success" onclick="Salvar()" id="btsalvar"><i class="fa fa-floppy-o"></i> Salvar</button>
                 </div>
             </div>
 

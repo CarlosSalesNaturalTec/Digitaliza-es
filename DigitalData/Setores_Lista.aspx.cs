@@ -5,23 +5,17 @@ using System.Text;
 public partial class Setores_Lista : System.Web.UI.Page
 {
     StringBuilder str = new StringBuilder();
+    int TotalDeRegistros = 0;
 
     protected void Page_Load(object sender, EventArgs e)
     {
         if (!IsPostBack)
         {
-            CalculaTotais();
-
             montaCabecalho();
             dadosCorpo();
             montaRodape();
             Literal1.Text = str.ToString();
         }
-    }
-
-    private void CalculaTotais()
-    {
-        Literal_Saldo.Text = "XXX";
     }
 
     private void montaCabecalho()
@@ -61,9 +55,10 @@ public partial class Setores_Lista : System.Web.UI.Page
                 "</tr>";
 
             str.Append(stringcomaspas);
+            TotalDeRegistros++;
         }
         ConexaoBancoSQL.fecharConexao();
-        
+        Literal_Quant.Text = TotalDeRegistros.ToString();
     }
 
     private void montaRodape()

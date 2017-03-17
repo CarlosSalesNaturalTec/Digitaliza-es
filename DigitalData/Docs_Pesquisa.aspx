@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Setores_Lista.aspx.cs" Inherits="Setores_Lista" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Docs_Pesquisa.aspx.cs" Inherits="Docs_Pesquisa" %>
 
 <!DOCTYPE html>
 
@@ -7,43 +7,18 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="~/vendors/bootstrap/dist/css/bootstrap.min.css">
+    
     <script src="~/vendors/jquery/dist/jquery.min.js"></script>
     <script src="~/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+   
 
 </head>
 
 <body>
 
-    <h3>Cadastro de Setores</h3>
-
-    <div class="row">
-        <div class="col-md-3">
-            <div class="well">
-                <h4>
-                    <p>Quant. Total</p>
-                </h4>
-                <h3 class="text-primary"><b><i class="fa fa-university"></i>
-                <asp:Literal ID="Literal_Quant" runat="server"></asp:Literal></b></h3>
-                <a href="Setores_Novo.aspx" class="btn btn-block btn-success">NOVO SETOR</a>
-                <p></p>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="well">
-                <h4>
-                    <p>Relatórios</p>
-                </h4>
-                <h3 class="text-primary"><i class="fa fa-bar-chart"></i></h3>
-                <a href="PainelPrincipal.aspx" class="btn btn-block btn-success">RELATÓRIOS</a>
-                <p></p>
-            </div>
-        </div>
-        
-    </div>
-    <br />
+    <h3>Pesquisa de Documentos</h3>
 
     <!-- Planilha  -->
     <asp:Literal ID="Literal1" runat="server"></asp:Literal>

@@ -78,7 +78,7 @@
                 <div class="clearfix"></div>
                 <br />
 
-                <div><h1>Sistema de Gestão</h1>
+                <div><h1>Gestão OnLine de Documentos</h1>
                     <h2><i class="fa fa-table"></i> 2017</h2>
                     
                 </div>

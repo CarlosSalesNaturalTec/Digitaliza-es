@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    <p>DIGITALDATA</p>
+        <img alt="" src="images/logo.png"/>
     </div>
     </form>
 </body>

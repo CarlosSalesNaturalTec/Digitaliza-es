@@ -57,10 +57,10 @@
                                         <li><a href="PainelPrincipal.aspx" target="iframe_a">Tipos de Documentos</a></li>
                                     </ul>
                                 </li>
-                                <li><a><i class="fa fa-truck"></i>Documentos <span class="fa fa-chevron-down"></span></a>
+                                <li><a><i class="fa fa-file"></i>Documentos <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
                                         <li><a href="Docs_Lista.aspx" target="iframe_a">Cadastro</a></li>
-                                        <li><a href="PainelPrincipal.aspx" target="iframe_a">Pesquisa</a></li>
+                                        <li><a href="Docs_Pesquisa.aspx" target="iframe_a">Pesquisa</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -99,7 +99,7 @@
 
             <!-- page content -->
             <div class="right_col" role="main">
-                <iframe src="PainelPrincipal.aspx" height="600px" width="100%" frameborder="0" name="iframe_a">
+                <iframe src="PainelPrincipal.aspx" height="800px" width="100%" frameborder="0" name="iframe_a">
                     <p>Seu browser não suporta iframes.</p>
                 </iframe>
             </div>
